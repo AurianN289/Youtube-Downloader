@@ -6,10 +6,10 @@ def Download(link):
     try:
         youtubeObject.download()
     except:
-        print("An error has occurred")
-    print("Download is completed successfully")
+        print("um erro ocorreu")
+    print("Download Completo com Sucesso")
 
 
-link = input("Enter the YouTube video URL: ")
+link = input("YouTube URL: ")
 Download(link)
 
